@@ -1,0 +1,40 @@
+florist:
+  name: 'Florista'
+  description: '&7Ganhe mais ao quebrar flores!'
+  price: 5000
+  pricePerLevel: 1500
+  max-level: 100000
+  bonus: #bônus em % (flowers + % especificada)
+    vip: 5.0
+    vip+: 10.0
+    mvp: 15.0
+    mvp+: 20.0
+
+speed:
+  name: 'Velocidade'
+  description: '&7Consiga ser + rápido por 10 segundos!'
+  price: 50000
+  pricePerLevel: 16500
+  level: 3 # nível da velocidade
+  max-level: -1
+  time: 10 # em segundos
+
+wing:
+  name: 'Asas'
+  description: '&7Consiga voar por 10 segundos!'
+  price: 100000
+  pricePerLevel: 33000
+  max-level: 100000
+  time: 10 # em segundos
+
+bomb:
+  name: 'Bomba'
+  description: '&7Invoque uma bomba e destrua ao seu redor!'
+  price: 50000
+  pricePerLevel: 16500
+  max-level: 75000
+  bonus: #bônus em % (flowers + % especificada)
+    vip: 5.0
+    vip+: 10.0
+    mvp: 15.0
+    mvp+: 20.0

@@ -1,0 +1,46 @@
+no-player: "&cApenas jogadores podem executar esse comando."
+no-permission: "&cVocê não tem permissão para fazer isso."
+randomfield-null: "&cVocê não consegue ir para um campo que não foi setado."
+invalid-command-create: "&cTente digitar '/field create <name>'"
+invalid-command-delete: "&cTente digitar '/field delete <name>'"
+invalid-command-setexit: "&cTente digitar '/mina setexit'"
+already-in-the-field: "&cVocê já está no campo, digite /campo para sair."
+field-exit-not-set: "&cA saida do campo não foi setada."
+field-enter: "&a&lYAY! &aVocê entrou no campo com sucesso."
+field-exit: "&aVocê saiu do campo com sucesso."
+not-in-the-field: "&cVocê precisa de estar dentro do campo para fazer isso."
+invalid-amount: "&cQuantidade inválida."
+insufficient-flowers: "&cVocê não tem flores o suficiente para fazer isso."
+already-exists: '&cJá existe um campo com esse nome.'
+null-location: '&cAs localizações não estão setadas corretamente. Marque as posições com 1 machado de ouro, e o spawn da mina será a localização do jogador ao dar o comando.'
+field-created: '&aCampo criado com sucesso.'
+no-exists: "&cNão há nenhum campo com este nome."
+field-deleted: "&cCampo apagado com sucesso."
+set-exit: "&aVocê setou a saída do campo com sucesso."
+max-level: "&cO seu encantamento já está no nível máximo."
+pvp-is-now-disabled: "&cVocê saiu do combate com sucesso."
+pvp-is-now-enabled: "&aVocê entrou ao combate com sucesso. Tenha cuidado guerreiro!"
+level-cancel: "&cVocê cancelou a evolução dos encantamentos na sua tesoura."
+invalid-number: "&cInsira um número válido que está entre 1 e 1000."
+no-uplevel: "&cVocê não tem cash o suficiente, ou você atingiu o nível máximo!"
+levelup-success: "&aVocê evoluiu o encantamento de nível!"
+you-are-farming-actionbar: "%combat%"
+combat-on-in-actionbar: "&a&lPVP &aativo! &b%animation% &fLucro 100%"
+combat-off-in-actionbar: "&c&lPVP &cdesativado! &b%animation% &fLucro 70%"
+you-died: "&cVocê morreu dentro do campo. Para a próxima vez, tenha mais cuidado, e nessa brincadeira você acabou por perder &f15% &cdas suas flores. ;("
+no-isshears: "&cVocê precisa de ter a sua /tesoura na mão para evoluir de nível!"
+title:
+  speed: '&e&lYEAH!'
+  wing: '&e&lYEAH!'
+subtitle:
+  speed: '&fVelocidade'
+  wing: '&fAsas'
+field-help:
+  - "&e&lCAMPO HELP"
+  - "&e/field create <name> &7- criar um campo"
+  - "&e/field delete <name> &7- apagar um campo"
+level-amount:
+  - ""
+  - "&eQuantos níveis você quer evoluir?"
+  - "&7Para cancelar esta ação, digite '&ccancelar&7'."
+  - ""
