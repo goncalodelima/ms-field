@@ -1,0 +1,45 @@
+shears:
+  title: 'Tesoura'
+  rows: 4
+  layout:
+    - "PPPPPPPPP"
+    - "PSPOOOOOP"
+    - "PPPPPPPPP"
+    - "PPPPUPPPP"
+  click-to-upgrade: '&aClique para evoluir'
+  color: "&a" #cor exibida para quando o jogador consegue evoluir o encantamento
+  color0: "&c" #cor exibida para quando o jogador não consegue evoluir o encantamento
+  material: "STORAGE_MINECART" #item exibido para quando consegue evoluir
+  material0: "MINECART" #item exibido para quando não consegue evoluir
+  sound-success: "VILLAGER_YES" #som aplicado quando o jogador evoluiu o encantamento de nível
+  sound-fail: "VILLAGER_NO" #som aplicado quando não consegue evoluir
+  insufficient-cash: "&cCash insuficiente."
+  max-level: "&cNível máximo atingido."
+  upgrade-error: '&cVocê não tem flores o suficiente ou está no nível máximo'
+  maxlevel-is-infinite: "Infinito" #caso não tenha nível máximo, infinito é exibido
+  status: "&aClique para evoluir."
+  status0: "&cFlores insuficientes."
+  upgrade:
+    skull-cant-up: "http://textures.minecraft.net/texture/fc620a2574552f89511ac4189a0a5b63650f04cbd9e86444220146e28b3b28f2"
+    skull-can-up: "http://textures.minecraft.net/texture/ba54e3676c38073508f43908b803d9b30a1eecd31433dc6e2de881a6903b2337"
+    name-can-up: "&aClique para evoluir"
+    name-cant-up: "&cClique para evoluir"
+    price: 100000
+    pricePerLevel: 33333.3
+    lore:
+      - "&7Evolua o nível da sua"
+      - "&7tesoura, fazendo-a receber"
+      - "&7mais cash das colheitas"
+      - ""
+      - " &8● &fCusto: &a&l❆&a%price%"
+    addlore:
+      - ""
+      - "%status%" #variável status ou status0 definida em cima (depende das condições do jogador)
+  enchant:
+    name: "%color%%enchant-name% &8- &f%current-level% → %next-level%"
+    lore:
+      - ""
+      - "&fNível máximo: &7%max-level%"
+      - "&fCusto: &6&l✪&6%price%"
+      - ""
+      - "%status%"

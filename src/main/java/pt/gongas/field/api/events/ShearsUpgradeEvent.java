@@ -1,24 +1,29 @@
 package pt.gongas.field.api.events;
 
 import lombok.Getter;
-import lombok.Setter;
-import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
+import org.bukkit.inventory.ItemStack;
 
-public class FlowerBreakEvent extends Event {
+public class ShearsUpgradeEvent extends Event {
 
     @Getter
     private final HandlerList handlers = new HandlerList();
     @Getter
     private final Player player;
     @Getter
-    private final Block block;
+    private final ItemStack itemStack;
+    @Getter
+    private int beforeLevel;
+    @Getter
+    private int currentLevel;
 
-    public FlowerBreakEvent(Player player, Block block) {
+    public ShearsUpgradeEvent(Player player, ItemStack itemStack, int beforeLevel, int currentLevel) {
         this.player = player;
-        this.block = block;
+        this.itemStack = itemStack;
+        this.beforeLevel = beforeLevel;
+        this.currentLevel = currentLevel;
     }
 
 }

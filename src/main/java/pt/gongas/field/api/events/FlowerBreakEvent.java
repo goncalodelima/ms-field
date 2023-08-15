@@ -1,7 +1,6 @@
 package pt.gongas.field.api.events;
 
 import lombok.Getter;
-import lombok.Setter;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;

@@ -1,9 +1,41 @@
+bomb:
+  name: 'Bomba'
+  description:
+    - '&7Invoque uma bomba e'
+    - '&7destrua ao seu redor!'
+  price: 50000
+  pricePerLevel: 16500
+  maxLevel: 75000
+  chance: 10000 #o nível do encantamento é dividido pelo número inserido aqui, caso o número obtido da divisão seja maior ou igual que um número gerado de 0 a 1, o encantamento é aplicado
+  bonus: #bônus em % (flowers + % especificada)
+    vip: 5.0
+    vip+: 10.0
+    mvp: 15.0
+    mvp+: 20.0
+
+lightning:
+  name: 'Ira Celestial'
+  description:
+    - '&7Invoque uma benção dos'
+    - '&7céus que revelam fúria!'
+  price: 50000
+  pricePerLevel: 16500
+  maxLevel: 75000
+  chance: 10000 #o nível do encantamento é dividido pelo número inserido aqui, caso o número obtido da divisão seja maior ou igual que um número gerado de 0 a 1, o encantamento é aplicado
+  bonus: #bônus em % (flowers + % especificada)
+    vip: 5.0
+    vip+: 10.0
+    mvp: 15.0
+    mvp+: 20.0
+
 florist:
   name: 'Florista'
-  description: '&7Ganhe mais ao quebrar flores!'
+  description:
+    - '&7Ganhe mais ao'
+    - '&7quebrar flores!'
   price: 5000
-  pricePerLevel: 1500
-  max-level: 100000
+  pricePerLevel: 1333
+  maxLevel: 100000
   bonus: #bônus em % (flowers + % especificada)
     vip: 5.0
     vip+: 10.0
@@ -12,29 +44,25 @@ florist:
 
 speed:
   name: 'Velocidade'
-  description: '&7Consiga ser + rápido por 10 segundos!'
+  description:
+    - '&7Consiga ser + rápido'
+    - '&7por alguns segundos!'
   price: 50000
   pricePerLevel: 16500
-  level: 3 # nível da velocidade
-  max-level: -1
-  time: 10 # em segundos
+  level: 3 #nível da velocidade
+  maxLevel: -1
+  time-in-combat: 10 #em segundos
+  time-not-in-combat: 6 #em segundos
+  chance: 10000 #o nível do encantamento é dividido pelo número inserido aqui, caso o número obtido da divisão seja maior ou igual que um número gerado de 0 a 1, o encantamento é aplicado
 
 wing:
   name: 'Asas'
-  description: '&7Consiga voar por 10 segundos!'
+  description:
+    - '&7Consiga voar'
+    - '&7por alguns segundos!'
   price: 100000
   pricePerLevel: 33000
-  max-level: 100000
-  time: 10 # em segundos
-
-bomb:
-  name: 'Bomba'
-  description: '&7Invoque uma bomba e destrua ao seu redor!'
-  price: 50000
-  pricePerLevel: 16500
-  max-level: 75000
-  bonus: #bônus em % (flowers + % especificada)
-    vip: 5.0
-    vip+: 10.0
-    mvp: 15.0
-    mvp+: 20.0
+  maxLevel: 100000
+  time-in-combat: 10 #em segundos
+  time-not-in-combat: 6 #em segundos
+  chance: 10000 #o nível do encantamento é dividido pelo número inserido aqui, caso o número obtido da divisão seja maior ou igual que um número gerado de 0 a 1, o encantamento é aplicado

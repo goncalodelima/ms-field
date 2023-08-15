@@ -1,0 +1,43 @@
+standard-flowers: 0.7 #flores que vêm inicialmente ao quebrá-las
+standard-blocks: 0 #blocos que vêm inicialmente ao digitar /tesoura
+standard-level: 1 #nível que vem inicialmente ao digitar /tesoura
+sound-levelup: "LEVEL_UP" #som aplicado quando o jogador evolui o encantamento de nível via chat
+not-combat-porcentage: 70 #este número é a % dos lucros se não estiver em combate
+kill-percentage-with-combat-on: 15 #se for 15, 15% das flores é retirado do usuário
+max-levelup: 1000 #se for 1000, a pessoa só consegue upar no máximo 1000 níveis de uma vez
+
+currency:
+  type: "flowers" #coloque aqui o tipo de currency que deseja (compatibilizado com ms-currencies)
+
+nextcash:
+  use: false #caso false, irá usar uma currency do ms-currencies
+  type: "cash" #ignore, caso seja true
+
+#Formúla para preço da evolução da tesoura: price + pricePerLevel * shearsLevel (da economia selecionada em cima)
+shears:
+  upgrade:
+    price: 100000
+    pricePerLevel: 33000
+
+field:
+  blocks:
+    - "RED_ROSE"
+    - "YELLOW_FLOWER"
+    - "DOUBLE_PLANT" #se quiser colocar derivados de blocos de DOUBLE_PLANT por exemplo (com data), basta colocar o MATERIAL, que irá funcionar.
+
+shears-item:
+  name: "&aTesoura &l1 &7[0]"
+  lore:
+    - "&7Florista 0"
+    - "&7Velocidade 0"
+    - "&7Asas 0"
+    - "&7Bomba 0"
+    - "&7Fazendeiro 0"
+
+shears-item-on-update:
+  name: "&aTesoura &a&l%level% &7[%blocks%]" # ao quebrar 1 flor, o nome é atualizado para o inserido aqui
+  lore: "&7%enchant-name% %level%"
+
+hologram:
+  velocity: 0.1 #aumente para o holograma ser mais rápido ou vice-versa.
+  finalY: 2.0 #aumente para ter uma posição final com um Y maior ou vice-versa.

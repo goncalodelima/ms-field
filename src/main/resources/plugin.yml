@@ -1,0 +1,12 @@
+name: ms-field
+version: 1.0
+main: pt.gongas.field.FieldPlugin
+description: https://minecraft-solutions.com
+authors: [ ReeachyZ_ ]
+commands:
+  shears:
+    aliases: [ tesoura ]
+  field:
+    aliases: [ campo ]
+  combat:
+    aliases: [ combate, pvp ]
