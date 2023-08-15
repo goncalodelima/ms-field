@@ -58,7 +58,7 @@ public class ShearsAPI {
      * @param enchant Enchant object.
      * @return The Enchant name corresponding to the provided object, or null if not found.
      */
-    public String getEnchantName(Enchant enchant) { return enchantManager.getEnchantName(enchant); }
+    public String getEnchant(Enchant enchant) { return enchantManager.getEnchantName(enchant); }
 
     /**
      * Applies an enchant to the provided shears with the specified level.
