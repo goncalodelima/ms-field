@@ -63,15 +63,21 @@ public class FieldAPI {
      * @param player The player to check.
      * @return True if pvp is enabled for the player within the field, otherwise false.
      */
-    public boolean isPvpEnabled(Player player) { return fieldManager.isPvpEnabled(player); }
+    public boolean isCombat(Player player) { return fieldManager.isCombat(player); }
 
     /**
-     * Sets the pvp status for the given player within the field.
+     * Sets the combat for the given player within the field.
      *
-     * @param player The player for whom to set the pvp status.
-     * @param status The new pvp status to set.
+     * @param player The player for whom to set the combat.
      */
-    public void setPvpEnabled(Player player, boolean status) { fieldManager.setPvpStatus(player, status); }
+    public void setCombat(Player player) { if (player != null) fieldManager.setCombat(player); }
+
+    /**
+     * Removes the combat for the given player within the field.
+     *
+     * @param player The player for whom to remove the combat.
+     */
+    public void removeCombat(Player player) { fieldManager.removeCombat(player); }
 
     /**
      * Retrieves a list of players who are currently in a battle within any field.
